@@ -66,6 +66,7 @@ function a(){
   console.log("this is a");
 }
 a();
+<<<<<<< HEAD
 console.log("global context");
 
 // Nested Function
@@ -125,3 +126,6 @@ function ncr(n,r,fact){
   return fact(n)/(fact(r)*fact(n-r));
 }
 console.log(ncr(5,2,fact));
+=======
+console.log("global context");
+>>>>>>> e5a4943af7042cf076e9e64e3908064e58be6cfc
