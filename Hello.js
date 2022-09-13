@@ -133,7 +133,7 @@ console.log(ncr(5,2,fact));
 var arr=[1,2,3,4,5,6];
 var ar=new Array(1,2,3,4,5,6,7,8,9);
 console.log(arr);
-console.log(ar);
+console.log(arr);
 console.log(arr[5]);
 arr[12]=23;
 arr[2]=8;
