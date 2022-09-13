@@ -126,6 +126,21 @@ function ncr(n,r,fact){
   return fact(n)/(fact(r)*fact(n-r));
 }
 console.log(ncr(5,2,fact));
-=======
-console.log("global context");
->>>>>>> e5a4943af7042cf076e9e64e3908064e58be6cfc
+
+
+// Arrays
+// Array in JavaScript
+var arr=[1,2,3,4,5,6];
+var ar=new Array(1,2,3,4,5,6,7,8,9);
+console.log(arr);
+console.log(ar);
+console.log(arr[5]);
+arr[12]=23;
+arr[2]=8;
+console.log(arr.length);
+//Declartion of array
+var a=new Array(); // empty array
+var a=new Array(2) // with size of 2 array
+var a=new Array(2,3,4) // if we pass more then 1 value in Array() so these are the element of array
+
+// function on arrays
