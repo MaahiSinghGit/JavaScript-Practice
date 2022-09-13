@@ -144,3 +144,18 @@ var a=new Array(2) // with size of 2 array
 var a=new Array(2,3,4) // if we pass more then 1 value in Array() so these are the element of array
 
 // function on arrays
+arr.push(10);
+arr.pop();
+//splice(start index,delete node,element be insertd)
+arr.splice(1,0,0);
+// in java script we can store a multiple type of value in single array
+var arr=["manoj",10,true,'a']
+// using for loop
+for(var i=0;i<arr.length;i++){
+  console.log(arr[i]);
+}
+// using for loop
+function print(el){
+  console.log(el);
+}
+arr.forEach(print);
