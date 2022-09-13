@@ -108,3 +108,20 @@ var facts=function (n){
   return fact;
 }
 console.log(facts(4));
+
+
+
+// funciton as a parameter
+
+var fact=function (n){
+  var f=1;
+  for(var i=1;i<=n;i++){
+    f=f*i;
+  }
+  return f;
+};
+
+function ncr(n,r,fact){
+  return fact(n)/(fact(r)*fact(n-r));
+}
+console.log(ncr(5,2,fact));
