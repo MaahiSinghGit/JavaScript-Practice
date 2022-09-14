@@ -214,3 +214,32 @@ console.log(std.address);
 // acceessing nested object properties
 console.log(std.address["city"]);
 console.log(std.address.pincode);
+  
+
+// Timing Events in JavaScript
+var count=0;
+function sayHello(){
+  console.log("Hello");
+  count++;
+  if(count==5){
+    // to stop the inerval fucntion and it need a id of setInterval instance 
+    clearInterval(id);
+  }
+  
+}
+setTimeout(sayHello,1000); // execute only once after given time
+ var id=setInterval(sayHello,1000); // execute itrtivly after given time
+
+
+ //countdown timer
+var c=10;
+function countdown(){
+  if(c<1){
+    console.log("Time Up");
+    clearInterval(id);
+    return;
+  }
+  console.log(c);
+  c--;
+}
+var id=setInterval(countdown,1000);
