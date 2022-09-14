@@ -168,7 +168,10 @@ var std={
   marks:95
 }
 // To read the value of object
+
 console.log(std.name);
+// it is used when we dont have valid name of key in object
+console.log(std["name"]);
 // To change the value of object
 std.age=20;
 console.log(std.age);
