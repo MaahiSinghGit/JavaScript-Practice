@@ -191,3 +191,9 @@ var st=new Object();
 st.name="hello";
 st.age=90;
 console.log(st);
+
+// delete the property of object 
+delete st.age;
+delete std["age"];
+console.log(st);
+console.log(std);
