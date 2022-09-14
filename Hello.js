@@ -210,8 +210,7 @@ var std={
   }
   console.log(std);
   // Accessing nested object
-  console.log(std.address);
-  // acceessing nested object properties
-  console.log(std.address.city);
-  console.log(std.address.pincode);
-  
+console.log(std.address);
+// acceessing nested object properties
+console.log(std.address["city"]);
+console.log(std.address.pincode);
