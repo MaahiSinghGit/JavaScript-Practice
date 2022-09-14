@@ -159,3 +159,32 @@ function print(el){
   console.log(el);
 }
 arr.forEach(print);
+
+// OBJECT IN JAVAS
+// first option for object
+var std={
+  name:'Manoj',
+  age:22,
+  marks:95
+}
+// To read the value of object
+console.log(std.name);
+// To change the value of object
+std.age=20;
+console.log(std.age);
+// To add new value in object
+std.branch="CSE"
+console.log(std)
+
+//DIFFRENT METHOD TO CREATE OBJECT
+// 1. Using empty object and add value
+var std={};
+std.name="manoj";
+std.age=49;
+std.marks=80;
+console.log(std);
+// 2. Using new keyword
+var st=new Object();
+st.name="hello";
+st.age=90;
+console.log(st);
