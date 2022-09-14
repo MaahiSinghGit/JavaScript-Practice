@@ -197,3 +197,21 @@ delete st.age;
 delete std["age"];
 console.log(st);
 console.log(std);
+
+//Nested Object
+var std={
+  name:"manoj",
+  age:49,
+  marks:80,
+    address:{
+      city:"CPT",
+      pincode:262523
+  }
+  }
+  console.log(std);
+  // Accessing nested object
+  console.log(std.address);
+  // acceessing nested object properties
+  console.log(std.address.city);
+  console.log(std.address.pincode);
+  
